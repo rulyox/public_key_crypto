@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.15)
+project(rsa)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(create_key create_key.cpp)
