@@ -21,7 +21,7 @@ int* public_key_crypto::create_key() {
 
             int random_number = create_random(RANDOM_MIN, RANDOM_MAX);
 
-            // only odd  numbers
+            // only odd numbers
             if(random_number % 2 == 0) continue;
 
             if(check_prime(random_number)) {
