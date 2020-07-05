@@ -3,4 +3,4 @@ project(public_key_crypto)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(public_key_crypto src/main.cpp src/create_key.cpp)
+add_executable(public_key_crypto src/main.cpp src/create_prime.cpp)

@@ -1,7 +1,6 @@
 #include <random>
 #include "public_key_crypto.h"
 
-#define ull unsigned long long
 #define RANDOM_MIN 100000000
 #define RANDOM_MAX 999999999
 
@@ -11,9 +10,9 @@ int gcd(int, int);
 int jacobi_symbol(int, int);
 ull modulo_exponential(ull, ull, ull);
 
-int* public_key_crypto::create_key() {
+ull* public_key_crypto::create_prime() {
 
-    int* prime = new int[2];
+    ull* prime = new ull[2];
 
     for(int i = 0; i < 2; i++) {
 

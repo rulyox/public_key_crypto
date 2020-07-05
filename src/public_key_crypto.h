@@ -2,7 +2,8 @@
 #define PUBLIC_KEY_CRYPTO_H
 
 namespace public_key_crypto {
-    int* create_key();
+    #define ull unsigned long long
+    ull* create_prime();
 }
 
 #endif //PUBLIC_KEY_CRYPTO_H
